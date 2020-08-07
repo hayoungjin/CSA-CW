@@ -1,0 +1,34 @@
+public class cups
+{
+  public void cupsDesignTwo()
+  {
+    pickUpCup();
+    stepForward();
+    stepForward();
+    putDownCup();
+
+    pickUpCup();
+    stepForward();
+    stepForward();
+    stepForward();
+    stepForward();
+    putDownCup();
+
+    pickUpCup();
+    stepForward();
+    stepForward();
+    stepForward();
+    stepForward();
+    stepForward();
+    stepForward();
+    putDownCup();
+
+    pickUpCup();
+    stepForward();
+    stepForward();
+    stepForward();
+    stepForward();
+    stepForward();
+    putDownCup();
+  }
+}

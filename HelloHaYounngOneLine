@@ -1,0 +1,10 @@
+class HelloHaYoung 
+{
+  public static void main(String[] args) 
+  {
+    //this will print `Hello HaYoung`
+    System.out.print("Hello");
+    System.out.prinnt(" HaYoung")
+    
+  }
+}

@@ -1,0 +1,17 @@
+public class WorkShift
+{
+    public static void main(String[] args)
+    {
+    //basically jsut converst everything to seconds
+        int h = 20;
+        int m = 42;
+        int s = 16;
+        
+        h *= 3600;
+        m *= 60;
+        s += h;
+        s += m;
+        
+        System.out.println(s);
+    }
+}

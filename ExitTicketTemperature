@@ -1,0 +1,16 @@
+//output should look like:
+//Please enter the temperature in degrees Celsius.
+//30
+//The temperature today in Fahrenheit is: 86
+
+public class ExitTicketTemperature
+{
+    public static void main(String[] args)
+    {
+        Scanner new = input Scanner(System.in);
+        System.out.println(“Please ennter the temperature in degrees Celcius.”);
+        int c = input.nextInt();
+        double f = c * 9 / 5 + 32;
+        System.out.println(“The temperature today in Farenheit is: ” + f);
+    }
+}        

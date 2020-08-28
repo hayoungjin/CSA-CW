@@ -1,0 +1,16 @@
+public class MyAge
+{
+    public static void main(String[] args)
+    {
+    //prints age, next year's age, current age again
+        int age = 17;
+        System.out.print("My current age is: ");
+        System.out.println(age);
+        age++;
+        System.out.print("My age next year will be: ");
+        System.out.println(age);
+        age--;
+        System.out.print("My current age is: ");
+        System.out.println(age);
+    }
+}

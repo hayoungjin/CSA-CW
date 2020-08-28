@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class NightOut
+{
+//calculates total cost of a night out incl. dinner, mini-golf, and dessert.
+
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("How much did dinner cost?");
+        double dinnerCost = input.nextDouble();
+        System.out.println("How much is mini-golf for one person?");
+        double miniGolfCost = input.nextDouble();
+        System.out.println("How much did dessert cost?");
+        double dessertCost = input.nextDouble();
+        
+        System.out.println("Dinner: $" + dinnerCost);
+        System.out.println("Mini-Golf: $" + miniGolfCost);
+        System.out.println("Dessert: $" + dessertCost);
+        double totalCost = dinnerCost + miniGolfCost * 2 + dessertCost;
+        System.out.println("Grand Total: $" + totalCost);
+    }
+}

@@ -1,0 +1,18 @@
+
+/**
+ * 
+ * The phone class represents a cellular phone.
+ * 
+ * Add the instance variables you think a phone would need
+ */ 
+
+public class Phone
+{
+    private double length;
+    private double width;
+    private double thickness;
+    private double ping;
+    private String color;
+    private int appNumbers;
+
+}

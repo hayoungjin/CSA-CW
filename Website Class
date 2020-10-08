@@ -1,0 +1,59 @@
+//WebsiteTester.java
+
+public class WebsiteTester
+{
+    public static void main(String[] args)
+    {
+        // Start here!
+        Website d = new Website();
+        Website gs = new Website ("goodSchool", "edu");
+        Website code = new Website ("codehs", "com", 1000000);
+        
+        System.out.println(d);
+        System.out.println(gs);
+        System.out.println(code);
+        
+    }
+}
+
+
+//Website.java
+
+public class Website
+{
+    // Put your code here
+    String domain;
+    String topLevelDomain;
+    int numUsers;
+    
+    public Website(String domainName, String topDomain, int numPeopl)
+    {
+        domain = domainName;
+        topLevelDomain = topDomain;
+        numUsers = numPeopl;
+    }
+    
+    public Website(String domainName, String topDomain)
+    {
+        domain = domainName;
+        topLevelDomain = topDomain;
+        numUsers = 0;
+    }
+
+    public Website()
+    {
+        domain = "";
+        topLevelDomain = "com";
+        numUsers = 0;
+    }    
+    
+    // String representation for printing
+    // Do not modify this method
+    public String toString()
+    {
+        String res =  "https://www." + domain + "." + topLevelDomain;
+        res += " has " + numUsers + " users";
+        
+        return res;
+    }
+}

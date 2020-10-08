@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class CastingToInt
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a double");
+        double myDouble = input.nextDouble();
+        int n = (int) myDouble;
+        System.out.println(n);
+    }
+}

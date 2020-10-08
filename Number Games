@@ -1,0 +1,66 @@
+//GamesTester.java
+
+public class GamesTester
+{
+    public static void main(String[] args)
+    {
+        NumberGames game = new NumberGames(3);
+        
+        // Double the number
+        // Print it out
+        double number = game.doubleNumber();
+        System.out.println(number);
+        
+        // Square the number
+        // Print it out
+        number = game.squareNumber();
+        System.out.println(number);
+        // Double the number again
+        // Print it out
+        number = game.doubleNumber();
+        System.out.println(number);
+        // Get the number and store the value
+        // Print it out to see that getNumber does
+        // not modify the number
+        double n = game.getNumber();
+        System.out.println(n);
+
+    }
+}
+
+//Games.java
+
+public class NumberGames
+{
+    
+    // Keep track of the number
+    private double num;
+    
+    // Constructor
+    public NumberGames(double startingNumber)
+    {
+        num = startingNumber;
+    }
+    
+    // Returns the number
+    public double getNumber()
+    {
+        return num;
+    }
+    
+    // Doubles the number
+    // Returns the doubled number
+    public double doubleNumber()
+    {
+        num *= 2;
+        return num;
+    }
+    
+    // Squares the number
+    // Returns the squared number
+    public double squareNumber()
+    {
+        num *= num;
+        return num;
+    }
+}

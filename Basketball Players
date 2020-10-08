@@ -1,0 +1,67 @@
+//PlayerTester.java
+public class PlayerTester
+{
+    public static void main(String[] args) {
+       
+       //Start here
+       BasketballPlayer bb = new BasketballPlayer("player", "team");
+       BasketballPlayer bp = new BasketballPlayer("other");
+       
+       bb.addGame(4,10);
+       bb.addGame(2,10);
+       bb.addGame(2,0);
+       bb.addGame(3,5);
+       
+       bp.addGame(4,10);
+       bp.addGame(2,10);
+       bp.addGame(2,0);
+       bp.addGame(3,5);
+       
+       System.out.println("player Stats: ");
+       bb.printPPG();
+       bb.printAPG();
+       bb.toString();
+       System.out.println(bb);
+       
+       System.out.println("other Stats: ");
+       bp.printPPG();
+       bp.printAPG();
+       bp.toString();
+       System.out.println(bp);
+	}
+}
+
+//Player.java
+
+public class PlayerTester
+{
+    public static void main(String[] args) {
+       
+       //Start here
+       BasketballPlayer bb = new BasketballPlayer("player", "team");
+       BasketballPlayer bp = new BasketballPlayer("other");
+       
+       bb.addGame(4,10);
+       bb.addGame(2,10);
+       bb.addGame(2,0);
+       bb.addGame(3,5);
+       
+       bp.addGame(4,10);
+       bp.addGame(2,10);
+       bp.addGame(2,0);
+       bp.addGame(3,5);
+       
+       System.out.println("player Stats: ");
+       bb.printPPG();
+       bb.printAPG();
+       bb.toString();
+       System.out.println(bb);
+       
+       System.out.println("other Stats: ");
+       bp.printPPG();
+       bp.printAPG();
+       bp.toString();
+       System.out.println(bp);
+	}
+}
+
